@@ -9,16 +9,14 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="hs-text">
-                <h2><span>MARKETING</span> para empresas.</h2>
-                <p>"¿Quieres llevar tu negocio al siguiente nivel en línea? Nuestro equipo de expertos en publicidad
-                  en línea puede ayudarte a maximizar el potencial de tu presupuesto en Google y a llegar
-                  a nuevos clientes de manera efectiva. ¡Contacta con nosotros hoy para
-                  aumentar tus ventas y mejorar tu presencia en línea.</p>
-                <a href="#" class="site-btn">CONTÁCTANOS</a>
+                <h2><span>¿QUIERES </span>VENDER MÁS?</h2>
+                <h4 style="color: white">Nosotros te ayudamos.</h4>
+                <span style="color: white">Marketing digital, desarrollo e innovación</span><br><br>
+                <a href="#contact" class="site-btn">CONTÁCTANOS</a>
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="hr-img">
+              <div class="">
                 <img src="{{ asset('img/marketing.png') }}" alt="">
               </div>
             </div>
@@ -133,19 +131,14 @@
         </div>
         <div class="col-lg-6 p-0">
           <div class="contact-warp">
-            <div class="section-title mb-0">
+            <div class="section-title mb-0" id="contact">
               <h2>Es hora de ponernos en marcha</h2>
             </div>
             <p>Estas a un paso de poner en Línea a tu empresa y generar mas ventas, dejanos ser parte de este gran
               proyecto. Si estas interesado en alguno de nuestros servicios, por favor dejanos tus datos
               en el formulario que aparece a continuación. Estamos deseando saber más sobre ti y poder ofrecerte la
               mejor experiencia posible. No dudes en contactarnos si tienes alguna pregunta o necesitas
-              información. ¡Esperamos tener noticias tuyas pronto! </p>
-            <ul>
-              <li>Zapopan, Jalisco.</li>
-              <li>+54 33 2256 4763</li>
-              <li>hola@cloudi.mx</li>
-            </ul>
+              información. ¡Esperamos tener noticias tuyas pronto! </p>           
            
             @if ($errors->any())
             <p style="color: #FF2768">Oh! Hace falta algunos campos o la informción que nos compartió no pasa nuestras politicas de información. Favor de validarlo</p>
@@ -157,7 +150,7 @@
                 </ul>
             </div>
             @endif
-            <form class="contact-from" action="{{ route('register') }}" method="POST">
+            <form class="contact-from" action="{{ route('register') }}" method="POST" >
                 @csrf
               <div class="row">
                 <div class="col-md-6 @error('name') is-invalid @enderror">

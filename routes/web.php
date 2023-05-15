@@ -21,5 +21,6 @@ Route::get('/', function () {
 
 
 Route::post('thankyou', [AppsController::class, 'register'])->middleware('validatepost')->name('register');
+Route::get('aviso-de-privacidad', [AppsController::class, 'privacy'])->name('privacy');
 
 

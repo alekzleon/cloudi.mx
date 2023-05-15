@@ -42,4 +42,8 @@ class AppsController extends Controller
         
         return view('thankyou')->with(['name', $request->name]);
     }
+
+    public function privacy(){
+        return view('privacy');
+    }
 }

@@ -373,7 +373,7 @@ Hero section
 
 .hs-item .hs-text {
 	padding-top: 90px;
-	max-width: 475px;
+	max-width: 100%;
 }
 
 .hr-img img {
@@ -424,7 +424,7 @@ Hero section
 	left: calc(50% - 588px);
 	max-width: 1176px;
 	width: 100%;
-	padding-left: 15px;
+	padding-left: 5px;
 }
 
 .hero-slider .owl-dots .owl-dot {

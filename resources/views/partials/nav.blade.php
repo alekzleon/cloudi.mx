@@ -5,7 +5,7 @@
     </div>
     <ul class="main-menu">
       <li><a href="/">Inicio</a></li>
-      <li><a href="#contacto">Contactanos</a></li>
-      <li><a href="https://api.whatsapp.com/send?phone=5213322564763&text=Estoy interesado!" target="_blank">33 2256 4763</a></li>
+      <li><a href="#contact">Contactanos</a></li>
+      <li><a href="https://api.whatsapp.com/send?phone=5213322564763&text=Estoy interesado!" target="_blank">33 1911 6927</a></li>
     </ul>
   </header>

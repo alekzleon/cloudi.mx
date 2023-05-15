@@ -8,7 +8,7 @@
                 <h2>CLOUDI</h2>
                 <ul>
                   <li><a href="#">Historia</a></li>
-                  <li><a href="#">Aviso de privacidad</a></li>
+                  <li><a href="{{ route('privacy') }}">Aviso de privacidad</a></li>
                   <li><a href="#">Terminos y condiciones</a></li>
                 </ul>
               </div>
